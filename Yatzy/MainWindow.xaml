@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtBoxEtt" HorizontalAlignment="Left" Margin="88,63,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" Height="28"/>
-        <TextBox x:Name="txtBoxTvå" HorizontalAlignment="Left" Margin="88,125,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxTre" HorizontalAlignment="Left" Margin="88,177,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxFyra" HorizontalAlignment="Left" Margin="88,217,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxFem" HorizontalAlignment="Left" Margin="88,262,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxSex" HorizontalAlignment="Left" Margin="88,309,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnSummering" Click="btnSummering_Click" Content="Summera" HorizontalAlignment="Left" Margin="378,125,0,0" VerticalAlignment="Top" Height="92" Width="169"/>
-
+        <TextBox x:Name="txtBoxEtt" Text="1" HorizontalAlignment="Left" Margin="88,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox x:Name="txtBoxTvå" Text="2" HorizontalAlignment="Left" Margin="88,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxTre" Text="3" HorizontalAlignment="Left" Margin="88,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxFyra" Text="4" HorizontalAlignment="Left" Margin="88,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxFem" Text="5" HorizontalAlignment="Left" Margin="88,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxSex" Text="6" HorizontalAlignment="Left" Margin="88,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSummering" Click="btnSummering_Click" Content="Summera" HorizontalAlignment="Left" Margin="231,126,0,0" VerticalAlignment="Top" Height="92" Width="169"/>
+        <TextBlock x:Name="txtSum" Text="" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="231,245,0,0" VerticalAlignment="Top" Height="73" Width="169"/>
     </Grid>
 </Window>
