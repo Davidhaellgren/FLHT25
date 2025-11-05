@@ -7,13 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtBoxEtt" Text="1" HorizontalAlignment="Left" Margin="88,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
-        <TextBox x:Name="txtBoxTvå" Text="2" HorizontalAlignment="Left" Margin="88,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxTre" Text="3" HorizontalAlignment="Left" Margin="88,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxFyra" Text="4" HorizontalAlignment="Left" Margin="88,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxFem" Text="5" HorizontalAlignment="Left" Margin="88,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtBoxSex" Text="6" HorizontalAlignment="Left" Margin="88,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnSummering" Click="btnSummering_Click" Content="Summera" HorizontalAlignment="Left" Margin="231,126,0,0" VerticalAlignment="Top" Height="92" Width="169"/>
-        <TextBlock x:Name="txtSum" Text="" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="231,245,0,0" VerticalAlignment="Top" Height="73" Width="169"/>
+        <TextBox x:Name="txtBoxEtt" HorizontalAlignment="Left" Margin="88,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox x:Name="txtBoxTvå" HorizontalAlignment="Left" Margin="88,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxTre" HorizontalAlignment="Left" Margin="88,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxFyra" HorizontalAlignment="Left" Margin="88,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxFem" HorizontalAlignment="Left" Margin="88,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxSex" HorizontalAlignment="Left" Margin="88,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSummering" Click="btnSummering_Click" Content="Summera" HorizontalAlignment="Left" Margin="502,134,0,0" VerticalAlignment="Top" Height="92" Width="169"/>
+        <TextBlock x:Name="txtBlockSum" Text="" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="502,262,0,0" VerticalAlignment="Top" Height="73" Width="169"/>
+        <TextBlock x:Name="txtBlockEtt" HorizontalAlignment="Left" Margin="95,69,0,0" TextWrapping="Wrap" Text="Fyll i antal ettor (1-5)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTvå" HorizontalAlignment="Left" Margin="95,109,0,0" TextWrapping="Wrap" Text="Fyll i antal tvåor (1-5)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTre" HorizontalAlignment="Left" Margin="95,161,0,0" TextWrapping="Wrap" Text="Fyll i antal treor (1-5)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockFyra" HorizontalAlignment="Left" Margin="95,201,0,0" TextWrapping="Wrap" Text="Fyll i antal fyror (1-5)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockFem" HorizontalAlignment="Left" Margin="95,246,0,0" TextWrapping="Wrap" Text="Fyll i antal femmor (1-5)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockSex" HorizontalAlignment="Left" Margin="95,293,0,0" TextWrapping="Wrap" Text="Fyll i antal sexor (1-5)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTotalEtt" HorizontalAlignment="Left" Margin="223,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTotalTvå" HorizontalAlignment="Left" Margin="223,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTotalTre" HorizontalAlignment="Left" Margin="223,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTotalFyra" HorizontalAlignment="Left" Margin="223,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTotalFem" HorizontalAlignment="Left" Margin="223,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtBlockTotalSex" HorizontalAlignment="Left" Margin="223,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
     </Grid>
 </Window>

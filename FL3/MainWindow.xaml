@@ -1,0 +1,16 @@
+﻿<Window x:Class="FL3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FL3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btbCalculate" Content="Summera" Click="btbCalculate_Click" HorizontalAlignment="Left" Margin="350,217,0,0" VerticalAlignment="Top" Height="91" Width="138"/>
+        <TextBlock x:Name="txtBlockSumma" HorizontalAlignment="Center" Margin="0,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxEtt" HorizontalAlignment="Left" Margin="80,69,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtBoxTvå" HorizontalAlignment="Left" Margin="80,107,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
