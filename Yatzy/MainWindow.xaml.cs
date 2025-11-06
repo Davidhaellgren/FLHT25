@@ -92,5 +92,23 @@ namespace Yatzy
                 txtBlockSum.Text = $"Du fick bara {summa} poäng och bör inte spela YATZY mer";  // Anropar "txtSum" som är ett TextBlock och lägger in angiven text i "Text"
            }
         }
+
+        private void btnTestSum_Click(object sender, RoutedEventArgs e)
+        {
+            int twos = 0;
+            twos = int.Parse(txtBoxTvå.Text);
+            int numberOfDices = 5, maxValue;
+            maxValue = 2 * numberOfDices;
+            // Kontrollera värdet. Är det rimligt?
+            //Fem tärningar
+            // Alla ettor är intressantra. Alla andra är ointressanta
+
+            if (twos > maxValue || twos < maxValue)
+            {
+                txtBlockSum.Foreground = Brushes.Red;
+                txtBlockSum.FontSize = 30;
+                txtBlockSum.Text = "Du gjorde fel!";
+            }
+        }
     }
-}
+} //Finns det någon fördel att skriva if satser och rikta mot sant eller falskt?

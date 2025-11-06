@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yatzy", "Yatzy\Yatzy.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL3", "FL3\FL3.csproj", "{4DB899CF-FC68-4FE3-BACD-F35EDE15E4E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL4", "FL4\FL4.csproj", "{7CA1BD88-0A19-44E4-AFD3-9FC7102EE603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4DB899CF-FC68-4FE3-BACD-F35EDE15E4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB899CF-FC68-4FE3-BACD-F35EDE15E4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB899CF-FC68-4FE3-BACD-F35EDE15E4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA1BD88-0A19-44E4-AFD3-9FC7102EE603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA1BD88-0A19-44E4-AFD3-9FC7102EE603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA1BD88-0A19-44E4-AFD3-9FC7102EE603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA1BD88-0A19-44E4-AFD3-9FC7102EE603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
