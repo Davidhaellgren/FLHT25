@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.Xml;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -57,6 +58,36 @@ namespace FL9
             canRideNow = canRideOnNextRound(passangersInQue);
 
 
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            // char = character = bokstav eller tecken
+            string test = "The quick brown fox jumps over the lazy dog";
+
+            // [d] [a] [v] [i] [d]
+            foreach (char ch in test)
+            {
+                IsAllLetters(ch);
+                //if (char.IsDigit(ch))
+                //{
+                //int value = int.Parse(ch.ToString());
+                //int value = (int)char.GetNumericValue(ch);
+                //}
+            }     
+        }
+        private bool IsAllLetters(char letter)
+        {
+            //string sentence = "The quick brown fox jumps over the lazy dog";
+            foreach (char sign in letter)
+            {
+                if (sign == letter)
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
