@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Margin="285,217,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="140" Height="54" FontSize="25"/>
+        <Button x:Name="btnPrice" Content="Summa" HorizontalAlignment="Left" Margin="296,285,0,0" VerticalAlignment="Top" Height="44" Width="118" FontSize="30" Click="btnValue_Click"/>
+        <TextBlock x:Name="txtTotal" HorizontalAlignment="Left" Margin="348,88,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" FontSize="25
+                   "/>
 
     </Grid>
 </Window>
