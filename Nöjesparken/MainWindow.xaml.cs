@@ -171,14 +171,15 @@ namespace Nöjesparken
 
             int ticketPrice = 25;
             int ticketBoundlePrice = 200;
+            int ticketBoundle = 10;
             int ticketCount = 0;
 
-            while (money >= 200)
+            while (money >= ticketBoundlePrice)
             {
                 money -= ticketBoundlePrice;
-                ticketCount += 10;
+                ticketCount += ticketBoundle;
             }
-            while (money > 25)
+            while (money > ticketPrice)
             {
                 money -= ticketPrice;
                 ticketCount++;
