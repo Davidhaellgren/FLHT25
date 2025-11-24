@@ -1,0 +1,23 @@
+﻿<Window x:Class="Nöjesparken.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nöjesparken"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Margin="34,86,0,0" TextWrapping="Wrap" Text="längd" VerticalAlignment="Top" Width="59" Height="22"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="38,73,0,0" TextWrapping="Wrap" Text="Längd i CM" VerticalAlignment="Top" FontSize="10"/>
+        <Button x:Name="btnCtrlHeight" Content="kontroll" HorizontalAlignment="Left" Margin="41,53,0,0" VerticalAlignment="Top" Click="btnCtrlHeight_Click"/>
+        <TextBox x:Name="txtLength2" HorizontalAlignment="Left" Margin="144,88,0,0" TextWrapping="Wrap" Text="Längd" VerticalAlignment="Top" Width="57" Height="20"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="148,73,0,0" TextWrapping="Wrap" Text="Längd i CM" VerticalAlignment="Top" FontSize="10"/>
+        <Button x:Name="button" Content="Kontroll" HorizontalAlignment="Left" Margin="150,53,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <CheckBox x:Name="chkVuxen" Content="Vuxet sällskap" HorizontalAlignment="Left" Margin="206,93,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Kö" HorizontalAlignment="Left" Margin="100,125,0,0" VerticalAlignment="Top" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Köp" HorizontalAlignment="Left" Margin="437,217,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+        <TextBox x:Name="txtMoney" HorizontalAlignment="Left" Margin="420,194,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="58"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="425,173,0,0" TextWrapping="Wrap" Text="Biljetter" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
