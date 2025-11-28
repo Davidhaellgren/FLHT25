@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nöjesparken", "Nöjesparke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{9C38347B-1E6F-4D22-A982-A49914D3C101}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL_figurer", "FL_figurer\FL_figurer.csproj", "{97B0FD28-C208-42C4-9CB9-66F32E824713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL_egg", "FL_egg\FL_egg.csproj", "{5E5CDE45-3094-44DE-9FFA-3CC03161648C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{9C38347B-1E6F-4D22-A982-A49914D3C101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C38347B-1E6F-4D22-A982-A49914D3C101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C38347B-1E6F-4D22-A982-A49914D3C101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B0FD28-C208-42C4-9CB9-66F32E824713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B0FD28-C208-42C4-9CB9-66F32E824713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B0FD28-C208-42C4-9CB9-66F32E824713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B0FD28-C208-42C4-9CB9-66F32E824713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5CDE45-3094-44DE-9FFA-3CC03161648C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5CDE45-3094-44DE-9FFA-3CC03161648C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5CDE45-3094-44DE-9FFA-3CC03161648C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5CDE45-3094-44DE-9FFA-3CC03161648C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
