@@ -44,5 +44,12 @@ namespace FL_egg
             //MessageBox.Show(selectedEgg.Id.ToString());
             MessageBox.Show($"Kycklingen {chicken.Name} med id {chicken.Id} har fötts");
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+
+            _farm.BuyEgg(10);
+            List<Chicken> chickens = _farm.HatchAllEggs(10);
+        }
     }
 }

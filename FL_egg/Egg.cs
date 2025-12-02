@@ -25,7 +25,7 @@ public class Egg
         return $"Ägg {Id} {result} ";
     }
 
-    public Chicken Hatch()
+    public Chicken? Hatch()
     {
         // kolla om  ägget är fetilt
         // om så, kläck och kyckling

@@ -9,6 +9,7 @@
     <Grid>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="275,133,0,0" VerticalAlignment="Top" Height="53" Width="83" Click="button_Click"/>
         <ListBox x:Name="lstEggs" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="419,56,127,137" SelectionChanged="lstEggs_SelectionChanged"/>
+        <Button x:Name="button1" Content="Kläck alla ägg" HorizontalAlignment="Left" Margin="107,133,0,0" VerticalAlignment="Top" Height="27" Width="80" Click="button1_Click"/>
 
     </Grid>
 </Window>
