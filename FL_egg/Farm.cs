@@ -23,10 +23,18 @@ public class Farm
 
     private void InitializeCoupes()
     {
-        Coupes = new Coupe(2);
-        Coupes = new Coupe(34);
-        Coupes = new Coupe(50);
+        Coupes = new List<Coupe>
+        {
+            new Coupe(2),
+            new Coupe(34),
+            new Coupe(50)
+        };
 
+        Chicken chicken = new(1)
+        {
+            EnergyLevel = 100,
+            Name = "jens"
+        };
     }
 
     private void MoveChickensIntoHouses()

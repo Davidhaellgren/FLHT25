@@ -8,14 +8,14 @@ namespace FL_egg;
 
 public class Coupe
 {
-    public int Capacity { get; } = 10;
+    public int Capacity { get; }
     public bool IsFull => Chickens.Count >= Capacity;
     public bool HasCapacityLeft => !IsFull;
     public List<Chicken> Chickens { get; set; } = new();
 
-    public Coupe()
+    public Coupe(int capacity)
     {
-        
+        Capacity = capacity;
     }
 
     public bool TryAddChicken(Chicken chicken)
