@@ -12,6 +12,11 @@ public class Triangle : Shape
 
     public double Height { get; set; }
 
+    public Triangle(int baseLength, int heigh)
+    {
+        BaseLength = BaseLength;
+        Height = heigh;
+    }
     public override double GetArea()
     {
         return BaseLength * Height * 0.5;
