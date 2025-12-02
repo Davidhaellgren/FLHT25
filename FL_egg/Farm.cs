@@ -29,7 +29,7 @@ public class Farm
             new Coupe(34),
             new Coupe(50)
         };
-
+        //
         Chicken chicken = new(1)
         {
             EnergyLevel = 100,
