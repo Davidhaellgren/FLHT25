@@ -9,4 +9,5 @@ namespace MapleScrollSim;
 public class Player
 {
     Helm helm = new();
+    //Equipment Helm = new Helm { Name = "Helm", MaxSlots = 10, PrimaryStatName = "DEX", PrimaryStat = 0};
 }

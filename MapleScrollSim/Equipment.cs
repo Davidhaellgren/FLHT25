@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MapleScrollSim;
 
-public class Equipment
+public abstract class Equipment
 {
     public string Name { get; set; }
     public int UpgradeCount { get; set; }
