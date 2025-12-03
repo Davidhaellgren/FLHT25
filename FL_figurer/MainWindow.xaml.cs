@@ -28,10 +28,7 @@ namespace FL_figurer
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             Rectangle rectangle = new(4, 12);
-
-
-
-            Triangle triangle = new(length: 3, height: 12);
+            Triangle triangle = new(3, 12);
 
 
             // Vi vill ha en lista!!!!!!
